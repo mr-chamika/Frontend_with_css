@@ -17,7 +17,7 @@ function MainPage(){
 
         e.preventDefault();
 
-        const response = await axios.get("http://localhost:5000/convert",{params:{date,sourceCurrency,tCurrency,amount,},});
+        const response = await axios.get("https://backend-with-css.onrender.com/convert",{params:{date,sourceCurrency,tCurrency,amount,},});
 
         setFinalPrice(response.data);
 
@@ -30,7 +30,7 @@ function MainPage(){
 
             try{
                 
-              const responce = await axios.get("http://localhost:5000/getAllCurrency",{
+              const responce = await axios.get("https://backend-with-css.onrender.com/getAllCurrency",{
 
                 params:{date,sourceCurrency,tCurrency,amount}
 
