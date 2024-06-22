@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: black;
+  color:whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+
+  color: rgb(1, 118, 1);
+  font-size: 50px;
+  
+
+}
+
+input ,select{
+
+  background-color: rgb(39, 63, 63);
+  padding: 0.5rem 5rem 0.5rem 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+section{
+
+  margin: 0rem 10rem 0rem 2rem;
+
+}
+
+form{
+
+  display: flex;
+  flex-direction: column;  
+  margin: 0.5rem 0rem 0.5rem 10rem;
+
+}
+
+button{
+
+  padding:0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0rem 50rem 0rem 0rem;
+  background-color: rgb(25, 176, 58);
+  color: white; 
+  border-radius: 5px;
+  border: none;  
+
+}
+
+button:hover{
+
+  opacity: 0.8;
+  box-shadow: 3px 3px 3px rgb(68, 151, 92);
+  transition-duration: 0.5s;
+
+}
